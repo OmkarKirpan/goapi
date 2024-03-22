@@ -1,0 +1,19 @@
+meta {
+  name: Get Coins
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/account/coins/?username=omkar
+  body: none
+  auth: none
+}
+
+query {
+  username: omkar
+}
+
+headers {
+  Authorization: 789GHI
+}
